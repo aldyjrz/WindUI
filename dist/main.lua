@@ -1604,7 +1604,7 @@ TextColor3=(ah~="Primary"and ah~="White")and"Text",
 },
 TextColor3=ah=="Primary"and Color3.new(1,1,1)or ah=="White"and Color3.new(0,0,0)or nil,
 AutomaticSize="XY",
-TextSize=18,
+textsize=16,
 })
 })
 })
@@ -1970,7 +1970,7 @@ FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
 ThemeTag={
 TextColor3="Text",
 },
-TextSize=20
+TextSize=16
 })
 local ar=ac("TextLabel",{
 AutomaticSize="XY",
@@ -2023,7 +2023,7 @@ AutomaticSize="Y",
 FontFace=Font.new(ab.Font,Enum.FontWeight.Medium),
 TextXAlignment="Left",
 Text=ag.KeySystem.Note,
-TextSize=18,
+textsize=16,
 TextTransparency=.4,
 ThemeTag={
 TextColor3="Text",
@@ -2060,7 +2060,7 @@ Text=ag.KeySystem.Thumbnail.Title,
 ThemeTag={
 TextColor3="Text",
 },
-TextSize=18,
+textsize=16,
 FontFace=Font.new(ab.Font,Enum.FontWeight.Medium),
 BackgroundTransparency=1,
 AutomaticSize="XY",
@@ -2294,7 +2294,7 @@ BackgroundTransparency=1,
 FontFace=Font.new(ab.Font,Enum.FontWeight.Medium),
 ThemeTag={TextColor3="Text"},
 TextTransparency=0.05,
-TextSize=18,
+textsize=16,
 Size=UDim2.new(1,0,0,0),
 AutomaticSize="Y",
 TextWrapped=true,
@@ -2811,7 +2811,7 @@ FontFace=Font.new(ab.Font,Enum.FontWeight.SemiBold),
 ThemeTag={
 TextColor3="Text",
 },
-TextSize=20,
+textsize=16,
 TextWrapped=true,
 Size=UDim2.new(1,ak and-af.IconSize-14 or 0,0,0)
 })
@@ -2849,7 +2849,7 @@ AutomaticSize="Y",
 FontFace=Font.new(ab.Font,Enum.FontWeight.Medium),
 TextXAlignment="Left",
 Text=af.Content,
-TextSize=18,
+textsize=16,
 TextTransparency=.2,
 ThemeTag={
 TextColor3="Text",
@@ -2880,7 +2880,7 @@ Text=af.Thumbnail.Title,
 ThemeTag={
 TextColor3="Text",
 },
-TextSize=18,
+textsize=16,
 FontFace=Font.new(ab.Font,Enum.FontWeight.Medium),
 BackgroundTransparency=1,
 AutomaticSize="XY",
@@ -4283,7 +4283,7 @@ ao.ImageLabel.ImageTransparency=.4
 
 local ap=ab("TextLabel",{
 Text="Locked",
-TextSize=18,
+textsize=16,
 FontFace=Font.new(aa.Font,Enum.FontWeight.Medium),
 AutomaticSize="XY",
 BackgroundTransparency=1,
@@ -6582,7 +6582,7 @@ local aw,ax,ay=at.Hue,at.Sat,at.Vib
 
 at.UIElements.Title=ac("TextLabel",{
 Text=at.Title,
-TextSize=20,
+textsize=16,
 FontFace=Font.new(aa.Font,Enum.FontWeight.SemiBold),
 TextXAlignment="Left",
 Size=UDim2.new(1,0,0,0),
@@ -7901,7 +7901,7 @@ Text=al.Title,
 ThemeTag={
 TextColor3="Text"
 },
-TextSize=20,
+textsize=16,
 TextTransparency=.1,
 Size=UDim2.new(1,-an,1,0),
 FontFace=Font.new(ac.Font,Enum.FontWeight.SemiBold),
@@ -8120,7 +8120,7 @@ Text="This tab is empty",
 ThemeTag={
 TextColor3="Text"
 },
-TextSize=18,
+textsize=16,
 TextTransparency=.5,
 BackgroundTransparency=1,
 FontFace=Font.new(ac.Font,Enum.FontWeight.Medium),
@@ -10263,7 +10263,7 @@ Parent=z.UIElements.Main,
 
 z.UIElements.Title=af("TextLabel",{
 Text=x.Title,
-TextSize=20,
+textsize=16,
 FontFace=Font.new(ae.Font,Enum.FontWeight.SemiBold),
 TextXAlignment="Left",
 TextWrapped=true,
@@ -10279,7 +10279,7 @@ Parent=A
 if x.Content then
 af("TextLabel",{
 Text=x.Content,
-TextSize=18,
+textsize=16,
 TextTransparency=.4,
 TextWrapped=true,
 RichText=true,
